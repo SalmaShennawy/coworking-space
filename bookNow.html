@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="Css/booknow.css">
+    <link href="css/all.css" type="text/css" rel="stylesheet">
+    <link href="css/all.min.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <link href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="menu-toggle"></div>
+            <div class="container">
+                <div class="row justify-content-center justify-content-md-between align-items-center text-center">
+                    <div class="col-12 col-md-1 logo">
+                        <img src="Img/logo.png">
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 main-menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="bookNow.html">Services</a></li>
+                            <li><a href="Gallery.html">Gallery</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <br>
+    <h1 class="title"> Make a booking for any of our services </h1>
+    <br>
+    <div class="containerz" id="regs">
+        <form>
+            <div class="booking-form">
+                <label for="service" style="text-align: center;">Service</label>
+                <br>
+                <select id="service" name="country">
+                    <option value="Shared Room">Shared Room</option>
+                    <option value="Small Private Room">Small Private Room</option>
+                    <option value="Private Room">Private Room</option>
+                    <option value="Big Private Room">Big Private Room</option>
+                    <option value="Panorama Room">Panorama Room</option>
+                    <option value="Meeting Room">Meeting Room</option>
+                    <option value="Class/Workshop">Class/Workshop</option>
+                </select>
+                <br>
+                <label for="Desk_Type">Desk Type</label>
+                <br>
+                <select id="Desk_Type" name="Desk_Type">
+                    <option value="Small Desk">Small Desk</option>
+                    <option value="Medium Desk">Medium Desk</option>
+                    <option value="L-Shaped Desk">L-Shaped Desk</option>
+                </select>
+                <br>
+
+                <div class="zahdy">
+                    <div class="input-grp">
+                        <label for="name">Name</label>
+                        <br>
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="input-grp">
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="text" class="form-control" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="zahdy">
+                    <div class="input-grp">
+                        <label for="phonenumber">Phone No.</label>
+                        <br>
+                        <input type="text" class="form-control" placeholder="Enter your phone number
+                ">
+                    </div>
+                    <div class="input-grp">
+                        <label for="period">Booking Period</label>
+                        <br>
+                        <select id="period" name="bookingPeriod">
+                            <option value="Hourly">Hourly</option>
+                            <option value="Daily">Daily</option>
+                            <option value="Monthly">Monthly</option>
+                            <option value="Annually">Annually</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="zahdy">
+                    <div class="input-grp">
+                        <label for="checkINdate">Check In Date</label>
+                        <br>
+                        <input id="date" type="date" class="form-control" placeholder="Select date for your booking">
+                    </div>
+                    <div class="input-grp">
+                        <label for="checkINtime">Check In Time</label>
+                        <br>
+                        <input id="date" type="time" class="form-control" placeholder="Select time for your booking">
+                    </div>
+                </div>
+
+                <div class="zahdy">
+                    <div class="input-grp">
+                        <label for="checkOUTtime">Expected Check Out Time</label>
+                        <br>
+                        <input id="date" type="date" class="form-control" placeholder="Enter An Estimate">
+                    </div>
+                    <div class="input-grp">
+                        <label for="purpose">Purpose</label>
+                        <select id="purpose" name="Purpose">
+                            <option value="Meeting">Meeting</option>
+                            <option value="Work">Work</option>
+                            <option value="Training">Training</option>
+                            <option value="Coaching">Coaching</option>
+                            <option value="Skype">Skype</option>
+                            <option value="Interview">Interview</option>
+                            <option value="In Door Shooting">In Door Shooting</option>
+                            <option value="Events">Events</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <label>Select Extra Features</label>
+
+                <br>
+                <br>
+                <div class="check-grp">
+                    <label>Flip Chart</label>
+                    <br>
+                    <input type="checkbox" class="clck">
+                </div>
+                <div class="check-grp">
+                    <label>White Board</label>
+                    <br>
+                    <input type="checkbox" class="clck">
+                </div>
+                <div class="check-grp">
+                    <label>Projector</label>
+                    <br>
+                    <input type="checkbox" class="clck">
+                </div>
+                <div class="check-grp">
+                    <label>Access Card</label>
+                    <br>
+                    <input type="checkbox" class="clck">
+                </div>
+
+
+                <label>Notes</label>
+                <textarea type="tex" class="Note Input-resize" placeholder="Any Additional Notes"></textarea>
+
+                <button class="button">Book Now</button>
+
+            </div>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row">
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                    <h5 class="headin5_amrc footer-text-h pt2">Find us</h5>
+                    <p class="mb10">We are unfindable as we are only exist virtually, a coworking space that aims to makes us succeed</p>
+                    <p><i class="fa fa-location-arrow"></i> Space / Mars </p>
+                    <p><i class="fa fa-phone"></i> +20101010101 </p>
+                    <p><i class="fa fa fa-envelope"></i> Info@Space.com </p>
+
+
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc footer-text-h pt2">pages</h5>
+                    <ul class="footer_ul_amrc">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="bookNow.html">Services</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc footer-text-h pt2">Quick links</h5>
+                    <ul class="footer_ul_amrc">
+                        <li><a href="index.html">View Home</a></li>
+                        <li><a href="bookNow.html">View Services</a></li>
+                        <li><a href="Gallery.html">View Gallery</a></li>
+                        <li><a href="#">View About</a></li>
+                        <li><a href="#">View Contact</a></li>
+                    </ul>
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-12 col">
+                    <h5 class="headin5_amrc footer-text-h pt2">Follow us</h5>
+
+                    <ul class="footer_ul2_amrc">
+                        <li><a href="#"><i class="fab fa-discord fleft padding-right"></i> </a>
+                            <p>Space<a href="https:discord.com">Discord</a></p>
+                        </li>
+                        <li><a href="#"><i class="fab fa-facebook fleft padding-right"></i> </a>
+                            <p>Space<a href="https:facebook.com">Facebook</a></p>
+                        </li>
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Space<a href="https:twitter.com">Twitter</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <ul class="foote_bottom_ul_amrc">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bookNow.html">Services</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

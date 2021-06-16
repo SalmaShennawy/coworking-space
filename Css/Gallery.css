@@ -1,0 +1,293 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+/* header start */
+nav {
+    padding: 15px 0;
+    background-color: #EFEFF1;
+}
+
+nav .logo {
+    text-decoration-style: solid;
+
+}
+
+nav .logo img {
+    height: auto;
+    width: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+nav ul li :hover {
+    color: #FF8E71;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #484849;
+}
+
+nav ul {
+    margin: 0;
+}
+
+/* header End */
+h2 {
+    color: #FF8E71;
+    text-align: left;
+    font-size: 45px;
+    font-weight: normal;
+    font-family: Segoe UI;
+    margin-left: 50px;
+}
+
+.Column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.Row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Column p {
+    text-align: center;
+    color: #EFEFF1;
+    background-color: #174B7C;
+    font-size: 22px;
+    font-weight: normal;
+    height: auto;
+    font-family: Segoe UI;
+}
+
+@media screen and (max-width: 900px) {
+    .Column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Column {
+        width: 100%;
+    }
+}
+
+.Border_Radius {
+    border-radius: 25px;
+}
+
+.Border_Top_Left_Radius {
+    border-top-left-radius: 110px 110px;
+    border-top-right-radius: 37.5px;
+    border-bottom-left-radius: 37.5px;
+    border-bottom-right-radius: 37.5px;
+}
+
+.Border_Top_Right_Radius {
+    border-top-right-radius: 110px 110px;
+    border-top-left-radius: 37.5px;
+    border-bottom-left-radius: 37.5px;
+    border-bottom-right-radius: 37.5px;
+}
+
+.Border_Bottom_Left_Radius {
+    border-bottom-left-radius: 110px 110px;
+    border-top-right-radius: 37.5px;
+    border-top-left-radius: 37.5px;
+    border-bottom-right-radius: 37.5px;
+}
+
+.Border_Bottom_Right_Radius {
+    border-bottom-right-radius: 110px 110px;
+    border-top-right-radius: 37.5px;
+    border-bottom-left-radius: 37.5px;
+    border-top-left-radius: 37.5px;
+}
+
+body {
+    background-color: #EFEFF1;
+}
+
+.Containert a:link {
+    color: #EFEFF1;
+    text-decoration: none;
+}
+
+.Containert a:visited {
+    color: #EFEFF1;
+    text-decoration: none;
+}
+
+.Containert a:hover {
+    color: #EFEFF1;
+    text-decoration: none;
+}
+
+.Containert a:active {
+    color: #EFEFF1;
+    text-decoration: none;
+}
+
+.Containert {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Margin_Left {
+    margin-left: 15px;
+}
+
+.Margin_Right_And_Left {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Margin_Right {
+    margin-right: 15px;
+}
+
+/* footer start */
+footer {
+    width: 100%;
+    background-color: #EFEFEF;
+    min-height: 250px;
+    padding: 10px 0px 25px 0px;
+}
+
+.pt2 {
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    color: #484849;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+    background: none;
+     !important
+}
+
+.footer-text-h {
+    color: #FF8E71;
+}
+
+.mb10 {
+    padding-bottom: 15px;
+}
+
+.footer_ul_amrc {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+}
+
+.footer_ul_amrc li {
+    padding: 0px 0px 5px 0px;
+}
+
+.footer_ul_amrc li a {
+    color: #484849;
+}
+
+.footer_ul_amrc li a:hover {
+    color: #FF8E71;
+    text-decoration: none;
+}
+
+.fleft {
+    float: left;
+}
+
+.padding-right {
+    padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.footer_ul2_amrc li p {
+    display: table;
+}
+
+.footer_ul2_amrc li a:hover {
+    text-decoration: none;
+}
+
+.footer_ul2_amrc li i {
+    margin-top: 5px;
+}
+
+.bottom_border {
+    border-bottom: 1px solid #323f45;
+    padding-bottom: 20px;
+}
+
+.foote_bottom_ul_amrc {
+    list-style-type: none;
+    padding: 0px;
+    display: table;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li {
+    display: inline;
+}
+
+.foote_bottom_ul_amrc li a {
+    color: #999;
+    margin: 0 12px;
+}
+
+.social_footer_ul {
+    display: table;
+    margin: 15px auto 0 auto;
+    list-style-type: none;
+}
+
+.social_footer_ul li {
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+.social_footer_ul li a {
+    color: #CCC;
+    border: 1px solid #CCC;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.social_footer_ul li i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.fa-discord,
+.fa-facebook,
+.fa-twitter {
+    font-size: 25px;
+    color: #174B7C;
+}
+
+/* footer End */
